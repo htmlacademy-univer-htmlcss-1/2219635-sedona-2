@@ -1,0 +1,247 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-dark: #333333;
+  --color-gray-light: #F2F2F2;
+
+  --color-blue-main: #82B3D3;
+  --color-blue-light-1: #E6F0F6;
+  --color-blue-light-2: #F0F6FA;
+
+  --color-brown: #756157;
+  --color-green: #7DB54F;
+
+  --font-base: "PT Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.big-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.small-text {
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--color-gray-dark);
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-brown);
+  border: none;
+  border-radius: 4px;
+}
+
+.search-hotels,
+.subscribe-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe-button,
+.apply-button,
+.add-to-favorites {
+  background-color: var(--color-blue-main);
+}
+
+.in-favorites {
+  background-color: var(--color-green);
+}
+
+.cancel-button {
+  border: none;
+  background-color: transparent;
+}
+
+.main-header {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.welcome-block,
+.subscribe-block,
+.inner-header {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.welcome-block {
+  background-image: url("../images/index-background-welcome.png");
+}
+
+.subscribe-block {
+  text-align: center;
+  color: var(--color-white);
+  background-image: url("../images/index-background-subcribe.jpg");
+}
+
+.inner-header {
+  color: var(--color-white);
+  background-image: url("../images/catalog-background.png");
+}
+
+.typical-block,
+.advantages-item {
+  text-align: center;
+}
+
+.blue-1 {
+  background-color: var(--color-blue-main);
+  color: var(--color-white);
+}
+
+.blue-2 {
+  background-color: var(--color-blue-light-1);
+}
+
+.blue-3 {
+  background-color: var(--color-blue-light-2);
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: var(--color-gray-dark);
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.footer-telephone {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter-buttons {
+  border: none;
+}
+
+.hotels-count {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-gray-dark);
+}
+
+.display-variant,
+.hotel-card-link,
+.pagination-link {
+  text-decoration: none;
+}
+
+.hotel-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-black);
+}
+
+.hotel-card-info,
+.hotel-card-rating-number {
+  color: var(--color-gray-dark);
+}
+
+.hotel-card-rating-number {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pagination-item {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.pagination-link {
+  background-color: var(--color-blue-main);
+  color: var(--color-white);
+}
+
+.pagination-current {
+  background-color: var(--color-gray-light);
+  color: var(--color-black);
+}
+
+.ellopsis {
+  background-color: transparent;
+  color: var(--color-black);
+}
